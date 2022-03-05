@@ -170,13 +170,29 @@ main {
 
 .second-section {
     background-color: #E5E7EB;
+    height: 425px;
+    display: flex;
+    align-items: center;
+}
+
+.quote-text {
+    width: 75%;
+    margin: 0 auto;
+    padding: 16px;
 }
 
 .second-section blockquote {
+    padding: 16px;
     font-size: 36px;
     font-weight: light;
     font-style: italic;
     color: #1F2937;
+}
+
+.second-section figcaption {
+    text-align: right;
+    padding:  0 48px;
+    font-weight: bold;
 }
 
 .cta-banner {
