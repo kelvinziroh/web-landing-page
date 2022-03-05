@@ -56,7 +56,7 @@ header {
 
 nav {
     padding: 16px;
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -83,7 +83,7 @@ nav a {
 
 .hero {
     height: 468px;
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     padding: 16px;
     display: flex;
@@ -97,11 +97,12 @@ nav a {
 
 .hero-btn {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 16px;
     background-color: #3882F6;
     padding: 8px 28px;
     color: #F9FAF8;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 .hero img {
@@ -126,9 +127,34 @@ main {
     flex: 1 1 auto;
 }
 
+.first-section {
+    height: 450px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    width: 75%;
+    margin: 40px auto;
+    justify-content: space-around;
+}
+
+.card {
+    width: 165px;
+}
+
+.card p {
+    text-align: center;
+    margin-top: 15px;
+}
+
 .first-section h2 {
     font-size: 36px;
     font-weight: extra-bold;
+    text-align: center;
+    margin-top: 40px;
 }
 
 .first-section p{
